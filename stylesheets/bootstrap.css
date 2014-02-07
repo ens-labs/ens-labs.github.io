@@ -269,6 +269,9 @@ a:focus {
   -webkit-border-radius: 500px;
      -moz-border-radius: 500px;
           border-radius: 500px;
+
+  width: 140;
+  height: 140;
 }
 
 .row {
