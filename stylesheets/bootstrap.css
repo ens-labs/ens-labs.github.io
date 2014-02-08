@@ -17,6 +17,10 @@
   border-top:1px solid #eee;
   clear:both}
 
+.colorlink {
+      color: #000;
+    }
+
 .clearfix {
   *zoom: 1;
 }
