@@ -155,7 +155,7 @@
     width: 570px;
   }
   .span5 {
-    width: 470px;
+    width: 370px;
   }
   .span4 {
     width: 370px;
@@ -264,8 +264,8 @@
     *width: 48.664757228587014%;
   }
   .row-fluid .span5 {
-    width: 40.17094017094017%;
-    *width: 40.11774868157847%;
+    width: 31.623931623931625%;
+    *width: 31.570740134569924%;
   }
   .row-fluid .span4 {
     width: 31.623931623931625%;
@@ -425,7 +425,7 @@
   input.span5,
   textarea.span5,
   .uneditable-input.span5 {
-    width: 456px;
+    width: 356px;
   }
   input.span4,
   textarea.span4,
@@ -505,7 +505,7 @@
     width: 352px;
   }
   .span5 {
-    width: 290px;
+    width: 228px;
   }
   .span4 {
     width: 228px;
@@ -614,8 +614,8 @@
     *width: 48.56559304102504%;
   }
   .row-fluid .span5 {
-    width: 40.05524861878453%;
-    *width: 40.00205712942283%;
+    width: 31.491712707182323%;
+    *width: 31.43852121782062%;
   }
   .row-fluid .span4 {
     width: 31.491712707182323%;
@@ -775,7 +775,7 @@
   input.span5,
   textarea.span5,
   .uneditable-input.span5 {
-    width: 276px;
+    width: 214px;
   }
   input.span4,
   textarea.span4,
