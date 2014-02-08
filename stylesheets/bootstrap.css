@@ -7,6 +7,7 @@
  *
  * Designed and built with all the love in the world by @mdo and @fat.
  */
+
 .footer{position:relative;
   margin-top:30px;
   padding-top:30px;
@@ -239,18 +240,17 @@ body {
   padding: 0;
   background-color: #fff;
   line-height: 1.5;
-  font-family: 'open sans';
+  font-family: 'Open Sans';
 }
 
 a {
-  color: #0088cc;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #005580;
-  text-decoration: underline;
+  color: #000;
 }
 
 .img-rounded {
@@ -756,7 +756,7 @@ h6 {
   text-align: center;
   font-weight: lighter;
   font-size: 14;
-  font-family: 'open sans';
+  font-family: 'Open Sans';
 }
 
 h1 small,
@@ -4429,7 +4429,7 @@ input[type="submit"].btn.btn-mini {
   float: left;
   padding: 10px 20px 10px;
   margin-left: -20px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 200;
   color: #777777;
   text-shadow: 0 1px 0 #ffffff;
