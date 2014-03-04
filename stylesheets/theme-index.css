@@ -1,0 +1,61 @@
+    h1, h2, {
+      font-weight: lighter;
+    }
+
+    body {
+      background: #F8F8F8;
+      padding-bottom: 40; 
+      font-weight: lighter;
+      min-height: 2000px;
+      padding-top: 70px;
+    }
+
+    p {
+      text-align: center;
+    }
+
+
+/*Navbar stuff*/
+
+.navbar-fixed-top {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  border:none;
+  z-index: 4;
+  background: rgba(255, 255, 255, 0.80);
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: lighter;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+
+  font-size: 16;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

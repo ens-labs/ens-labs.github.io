@@ -3,97 +3,63 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/onepage-scroll.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/theme.css"/>
 
     <title>Porfolio by EnS-Labs</title>
-
-    <style>
-    /* Circle thingys*/
-    .marketing .span4 {
-      text-align: center;
-    }
-
-    .marketing .span5 {
-      text-align: center;
-    }
-
-    .marketing .span5 p {
-      font-weight: lighter;
-    }
-
-    .marketing h2 {
-      font-weight: lighter;
-    }
-    .marketing .span4 p {
-      font-weight: lighter;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-
-    h1 {
-      font-weight: lighter;
-    }
-
-    </style>
   </head>
 
   <body>
 
-    <div class="navbar">
-      <div class="navbar-inner">
-        <a class="brand" href="/">EnS</a>
+      <!-- Circle thingys & theme -->
+    <div class="wrapper">
+      <div class="main">
+        
+        <section class="page1">
+          <div class="page_container">
+            <h1>Meet the team behind EnS-Labs</h1>
+          </div>
+        </section>
+
+        <section class="page2">
+          <div class="page_container">
+            <img class="img-circle" width="240" src="images/daniel.jpeg">
+            <h1>Hi there, I'm Daniel. I currently study industrial electronics. I've been studying 
+              computer science on my own for 3 years now. I do some C#, C++, JavaScript, HTML and CSS.</h1>
+          </div>
+        </section>
+
+        <section class="page3">
+          <div class="page_container">
+            <img class="img-circle" width="240" src="images/carlos-2.jpeg">
+            <h1>Hi, I'm Carlos. I do some Marketing stuff.</h1>
+          </div>
+        </section>
+
+        <section class="page4">
+          <div class="page_container">
+            <img class="img-circle" width=240 src="images/cristian.jpeg">
+            <h1>I'm Cristian and I just started learning HTML.</h1>
+          </div>
+        </section>
+
+
       </div>
+      <a class="back" href="/">EnS</a>
     </div>
 
-    <h1>
-      The team:
-    </h1>
-
-
-      <!-- Circle thingys
-    ================================================== -->
-    <div class="container marketing">
-      <div class="row">
-        <div class="span4">
-          <a href="danny.html"><img class="img-circle" width=140 src="images/daniel.jpeg"></a>
-          <h2>Hi, my name is Danny</h2>
-          <p>Click on my pic to see my porfolio(WIP).</p>
-        </div>
-          <div class="span4">
-            <img class="img-circle" width=140 src=" images/carlos-2.jpeg">
-            <h2>Hi, my name is Carlos.</h2>
-            <p>I do HTML and CSS</p>
-          </div>
-          <div class="span4">
-              <img class="img-circle" width=140 src="images/Bryan.jpeg">
-              <h2> Hi, I'm Bryan.</h2>
-              <p> Just a little programming and ideas.</p>
-          </div>
-          <div class="span5">
-            <img class="img-circle2" width=140 src="images/cristian.jpeg">
-            <h2>Hi, I'm Cristian</h2>
-            <p>I just started learning.</p>
-          </div>
-      </div>
-    </div>
-
-    
-
-       <!-- FOOTER -->
-      <div class="container">
-        <div class="footer">
-          <div style="text-align: center;">Made in P.R.</div>
-            <ul class="footer-links pull-left"><a class="colorlink" href="mailto:danieldr@ens-labs.com">Contact us</a></ul>
-              <ul class="footer-links pull-right">
-              <a class="colorlink" href="/about.html">About</a>
-              <ul class="footer-links pull-right">
-                <a class ="colorlink" href="/aboutus.html">About us</a>
-              </ul>
-           </ul>
-         </div>
-        </div>
-      </div>
+    <script type="text/javascript" src="javascripts/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.onepage-scroll.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600
+      });
+    });
+    </script>
   </body>
 </html>

@@ -34,7 +34,7 @@ html {
       margin-bottom: 5px;
       font-size: 70px;
       letter-spacing: -4px;
-      font-weight: 100;
+      font-weight: lighter;
     }
     h1 span {
       font-size: 26px;
@@ -71,7 +71,7 @@ html {
       box-sizing: border-box;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
-      font-weight: 100;
+      font-weight: lighter;
       color: white;
       margin: 0;
     }
@@ -155,7 +155,7 @@ html {
       color: #FFF;
       }
     .main section.page3 {
-      background: #474e5d;
+      background: #FF6600;
     }
     .main section.page3 .page_container {
       overflow: hidden;
@@ -164,7 +164,7 @@ html {
     .main section.page3 h1 {
       text-align: center;
       padding: 0;
-      margin-bottom: 0;
+      margin-bottom: 10px;
       font-size: 36px;
       letter-spacing: -1px;
       color: white;
@@ -176,13 +176,31 @@ html {
       font-weight: 100;
       font-size: 21px;
     }
+
+    .main section.page4 {
+      background: #663399;
+    }
+
+    .maing section.page4 .page_container {
+      margin-top: 240px;
+      overflow: hidden;
+    }
+
+    .main section.page4 h1 {
+      text-align: center;
+      padding: 0;
+      margin-bottom: 10px;
+      font-size: 36px;
+      letter-spacing: -1px;
+      color: white;
+    }
     
     body.disabled-onepage-scroll .onepage-wrapper  section {
       min-height: 100%;
       height: auto;
     }
     
-    body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
+    body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page4 .page_container  {
       padding: 20px;
       margin-top: 150px;
       -webkit-box-sizing: border-box;
@@ -200,7 +218,7 @@ html {
     }
     
     
-    body.disabled-onepage-scroll .main section.page3 .page_container {
+    body.disabled-onepage-scroll .main section.page4 .page_container {
       width: 90%;
       margin-left: auto;
       margin-right: auto;
@@ -208,6 +226,20 @@ html {
     }
 
     .main section.page2 .img-circle {
+      border-radius: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    .main section.page3 .img-circle {
+      border-radius: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    .main section.page4 .img-circle {
       border-radius: 50%;
       margin-left: auto;
       margin-right: auto;
