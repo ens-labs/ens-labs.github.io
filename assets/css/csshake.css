@@ -166,7 +166,7 @@
 /* line 56, ../sass/_shake.scss */
 .shake.shake-constant.shake-slow {
   animation-name: shake-slow;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
