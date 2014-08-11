@@ -34,6 +34,34 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+.btn-social {
+	margin-right: 10px;
+	padding-right: 20px;
+	padding-top: 5px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 2.5px solid rgb(85, 85, 85);
+    border-radius: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.btn-social-envelope {
+	margin-right: 8px;
+	padding-right: 20px;
+	padding-top: 5px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 2.5px solid rgb(85, 85, 85);
+    border-radius: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+}
+
 .parallax {
 	background-image: url("/assets/img/paisaje.JPG");
 	background-attachment: inherit;
