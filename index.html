@@ -218,6 +218,12 @@
         $('#pr1, #pr2').removeClass('shake-hard shake-slow shake-little shake-horizontal shake-vertical shake-rotate shake-opacity shake-crazy').addClass(newShake);
       });
     });
+
+    // Scrolling to top when refreshing
+    $(window).on('beforeunload', function(){
+		$(window).scrollTop(0);
+	});
+
     </script>
   </body>
 </html>
