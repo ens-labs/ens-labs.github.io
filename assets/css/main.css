@@ -34,6 +34,15 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+.parallax {
+	background-image: url("/assets/img/paisaje.JPG");
+	background-attachment: inherit;
+}
+
+.h2-center {
+	text-align: center;
+}
+
 .glyphicon-heart {
 	color: #21AED3;
 }
@@ -44,15 +53,13 @@ p {
     margin-bottom: 25px;
 }
 
+.contact-center {
+	text-align: center;
+}
+
 .footer {
-  position:relative;
-  margin-top:30px;
-  padding-top:30px;
-  padding-bottom:40px;
-  font-size:12px;
-  line-height:1.5;
-  color:#000;
-  clear:both
+  padding-top: 550px;
+  font-size: 30px;
 }
 
 .aboutus {
@@ -247,6 +254,11 @@ a:after {
 	padding-top: 200px;
 	padding-bottom: 200px;
 
+}
+
+#Contact i {
+	font-size: 50px;
+	color: #21AED3;
 }
 
 #social i {
