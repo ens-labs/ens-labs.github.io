@@ -9,14 +9,13 @@
 
     <title>EnS - Profolio</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/csshake.css">
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/chart.js"></script>
 
-    <!-- Custom styles for this template -->
+    <!-- styles -->
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
@@ -208,7 +207,7 @@
 		</div><!-- /container -->
 	</div><!-- /skills -->
 
-    <div class="parallax" style="height: 620px;" gumby-parallax=".7" gumby-offset="1900">
+    <div class="parallax" gumby-parallax=".7" gumby-offset="1900">
     	<div class="container">
     		<div class="footer">
     			<div style="text-align: center;"> <p>Made in P.R. with <i class="glyphicon glyphicon-heart"></i></p></div>
@@ -216,11 +215,7 @@
 		</div>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/pres.js"></script>
     <script src="assets/js/modernizr.min.js"></script>
     <script src="assets/js/gumby.min.js"></script>
     <script src="assets/js/gumby.parallax.js"></script>
@@ -229,14 +224,7 @@
     <script type="text/javascript">
     $(document).ready(function(){
     	$('#scroll').localScroll({duration:900});
-
-    	$('#shake-type').change(function(){
-        var newShake = $(this).val();
-        var regex = /(\s)*(shake-.*?)(?=\s)/g; 
-        $('#pr1, #pr2').removeClass('shake-hard shake-slow shake-little shake-horizontal shake-vertical shake-rotate shake-opacity shake-crazy').addClass(newShake);
-      });
-    });
-
+    
     // Scrolling to top when refreshing
     $(window).on('beforeunload', function(){
 		$(window).scrollTop(0);

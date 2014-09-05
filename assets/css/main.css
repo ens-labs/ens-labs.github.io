@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 .parallax {
 	background-image: url("/assets/img/paisaje.JPG");
 	background-attachment: inherit;
+	height: 620px;
 }
 
 .h2-center {
